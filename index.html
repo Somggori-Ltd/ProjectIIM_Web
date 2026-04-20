@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1600 height=900 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build_Web.loader.js";
+      var loaderUrl = buildUrl + "/77862e714285f0efb105222b95dae4cb.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Build_Web.data.br",
-        frameworkUrl: buildUrl + "/Build_Web.framework.js.br",
-        codeUrl: buildUrl + "/Build_Web.wasm.br",
+        dataUrl: buildUrl + "/86bad2907ed59f91f844dec58ef83e9d.data.unityweb",
+        frameworkUrl: buildUrl + "/c66a4a9f72381769889242c94da895e2.framework.js.unityweb",
+        codeUrl: buildUrl + "/26c2f38bf21bc0659332ae9cee1feb2b.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "DNF_IIM",
@@ -104,8 +104,8 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1600px";
+        canvas.style.height = "900px";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
