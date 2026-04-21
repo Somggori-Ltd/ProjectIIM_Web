@@ -11,6 +11,7 @@
     <type fullname="Somggori.Story.DelayAction" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.DialogueAction" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.DialogueHideAction" preserve="nothing" serialized="true" />
+    <type fullname="Somggori.Story.DialogueIllustAction" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.IdGroupData" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.InGameDirectionAction" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.PlayerOperationAction" preserve="nothing" serialized="true" />
