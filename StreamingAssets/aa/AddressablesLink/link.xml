@@ -1,17 +1,35 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="IIM.Battle.HPBar" preserve="all" />
+    <type fullname="IIM.Battle.UIAggressiveGauge" preserve="all" />
     <type fullname="IIM.Battle.UIBattleMain" preserve="all" />
+    <type fullname="IIM.Battle.UIWibing" preserve="all" />
+    <type fullname="IIM.Skill.ObjSkillEmpty" preserve="all" />
     <type fullname="IIM.Skill.SkillModel" preserve="all" />
+    <type fullname="IIM.Skill.SkillObjEnemyRangeAttack" preserve="all" />
     <type fullname="IIM.Skill.SlotSkill" preserve="all" />
-    <type fullname="IIM.Story.PlayerOperationEvent_SkillInfighter1" preserve="all" />
+    <type fullname="IIM.Story.PlayerOperationEvent_InfighterBaseAttack" preserve="all" />
+    <type fullname="Somggori.Battle.DamageText" preserve="all" />
+    <type fullname="Somggori.Battle.GraphicController" preserve="all" />
+    <type fullname="Somggori.Battle.MoveComponentJoystick" preserve="all" />
     <type fullname="Somggori.Story.StoryModel" preserve="all" />
+    <type fullname="Somggori.Timeline.FlipClip" preserve="all" />
+    <type fullname="Somggori.Timeline.FlipTrack" preserve="all" />
     <type fullname="Somggori.Timeline.MoveClip" preserve="all" />
     <type fullname="Somggori.Timeline.MoveTrack" preserve="all" />
+    <type fullname="IIM.Skill.SkillEnemyCloseAttack" preserve="nothing" serialized="true" />
+    <type fullname="IIM.Skill.SkillEnemyRangeAttack" preserve="nothing" serialized="true" />
+    <type fullname="IIM.Skill.SkillInfighter1" preserve="nothing" serialized="true" />
+    <type fullname="IIM.Skill.SkillInfighter2" preserve="nothing" serialized="true" />
+    <type fullname="IIM.Skill.SkillInfighter3" preserve="nothing" serialized="true" />
+    <type fullname="IIM.Skill.SkillInfighterBaseAttack" preserve="nothing" serialized="true" />
+    <type fullname="IIM.Skill.SkillInfighterWibing" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.CameraAction" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.DelayAction" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.DialogueAction" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.DialogueHideAction" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.DialogueIllustAction" preserve="nothing" serialized="true" />
+    <type fullname="Somggori.Story.DialogueIllustHideAction" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.IdGroupData" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.InGameDirectionAction" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.PlayerOperationAction" preserve="nothing" serialized="true" />
@@ -49,9 +67,14 @@
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Timeline.ActivationPlayableAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.ActivationTrack" preserve="all" />
     <type fullname="UnityEngine.Timeline.AnimationPlayableAsset" preserve="all" />
     <type fullname="UnityEngine.Timeline.AnimationTrack" preserve="all" />
     <type fullname="UnityEngine.Timeline.GroupTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalEmitter" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalTrack" preserve="all" />
     <type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all" />
     <type fullname="UnityEngine.Timeline.MarkerList" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Timeline.TimelineAsset/EditorSettings" preserve="nothing" serialized="true" />
@@ -59,6 +82,8 @@
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
@@ -73,6 +98,10 @@
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.CircleCollider2D" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
@@ -89,6 +118,7 @@
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
   </assembly>
   <assembly fullname="Sirenix.Serialization">
