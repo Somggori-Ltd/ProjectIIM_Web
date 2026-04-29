@@ -3,12 +3,15 @@
     <type fullname="IIM.Battle.HPBar" preserve="all" />
     <type fullname="IIM.Battle.UIAggressiveGauge" preserve="all" />
     <type fullname="IIM.Battle.UIBattleMain" preserve="all" />
+    <type fullname="IIM.Battle.UIBattleResult" preserve="all" />
     <type fullname="IIM.Battle.UIWibing" preserve="all" />
     <type fullname="IIM.Skill.ObjSkillEmpty" preserve="all" />
     <type fullname="IIM.Skill.SkillModel" preserve="all" />
     <type fullname="IIM.Skill.SkillObjEnemyRangeAttack" preserve="all" />
     <type fullname="IIM.Skill.SlotSkill" preserve="all" />
     <type fullname="IIM.Story.PlayerOperationEvent_InfighterBaseAttack" preserve="all" />
+    <type fullname="IIM.Story.PlayerOperationEvent_InfighterSkill2" preserve="all" />
+    <type fullname="IIM.UITitle" preserve="all" />
     <type fullname="Somggori.Battle.DamageText" preserve="all" />
     <type fullname="Somggori.Battle.GraphicController" preserve="all" />
     <type fullname="Somggori.Battle.MoveComponentJoystick" preserve="all" />
@@ -19,11 +22,19 @@
     <type fullname="Somggori.Timeline.MoveTrack" preserve="all" />
     <type fullname="IIM.Skill.SkillEnemyCloseAttack" preserve="nothing" serialized="true" />
     <type fullname="IIM.Skill.SkillEnemyRangeAttack" preserve="nothing" serialized="true" />
+    <type fullname="IIM.Skill.SkillImperialKnight1" preserve="nothing" serialized="true" />
+    <type fullname="IIM.Skill.SkillImperialKnight2" preserve="nothing" serialized="true" />
+    <type fullname="IIM.Skill.SkillImperialKnight3" preserve="nothing" serialized="true" />
+    <type fullname="IIM.Skill.SkillImperialKnightBaseAttack" preserve="nothing" serialized="true" />
     <type fullname="IIM.Skill.SkillInfighter1" preserve="nothing" serialized="true" />
     <type fullname="IIM.Skill.SkillInfighter2" preserve="nothing" serialized="true" />
     <type fullname="IIM.Skill.SkillInfighter3" preserve="nothing" serialized="true" />
     <type fullname="IIM.Skill.SkillInfighterBaseAttack" preserve="nothing" serialized="true" />
+    <type fullname="IIM.Skill.SkillInfighterBoss1" preserve="nothing" serialized="true" />
+    <type fullname="IIM.Skill.SkillInfighterBoss2" preserve="nothing" serialized="true" />
+    <type fullname="IIM.Skill.SkillInfighterBoss3" preserve="nothing" serialized="true" />
     <type fullname="IIM.Skill.SkillInfighterWibing" preserve="nothing" serialized="true" />
+    <type fullname="Somggori.Sound.SoundIDEntry" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.CameraAction" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.DelayAction" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.DialogueAction" preserve="nothing" serialized="true" />
@@ -35,8 +46,16 @@
     <type fullname="Somggori.Story.PlayerOperationAction" preserve="nothing" serialized="true" />
     <type fullname="Somggori.Story.SubAction_CameraFade" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="BroAudio, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Ami.BroAudio.Data.AudioAsset" preserve="all" />
+    <type fullname="Ami.BroAudio.Data.AudioEntity" preserve="all" />
+    <type fullname="Ami.BroAudio.Data.BroAudioClip" preserve="nothing" serialized="true" />
+    <type fullname="Ami.BroAudio.Data.TempoTransition" preserve="nothing" serialized="true" />
+    <type fullname="Ami.BroAudio.SoundID" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Localization.Locale" preserve="all" />
@@ -85,6 +104,9 @@
     <type fullname="UnityEngine.Animator" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
@@ -123,9 +145,6 @@
   </assembly>
   <assembly fullname="Sirenix.Serialization">
     <type fullname="Sirenix.Serialization.SerializationData" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="Unity.RenderPipelines.Core.Runtime">
-    <type fullname="UnityEngine.Rendering.SerializedDictionary`2" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
