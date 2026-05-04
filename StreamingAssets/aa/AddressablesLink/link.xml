@@ -4,13 +4,21 @@
     <type fullname="IIM.Battle.UIAggressiveGauge" preserve="all" />
     <type fullname="IIM.Battle.UIBattleMain" preserve="all" />
     <type fullname="IIM.Battle.UIBattleResult" preserve="all" />
+    <type fullname="IIM.Battle.UIGuard" preserve="all" />
     <type fullname="IIM.Battle.UIWibing" preserve="all" />
     <type fullname="IIM.Skill.ObjSkillEmpty" preserve="all" />
     <type fullname="IIM.Skill.SkillModel" preserve="all" />
     <type fullname="IIM.Skill.SkillObjEnemyRangeAttack" preserve="all" />
     <type fullname="IIM.Skill.SlotSkill" preserve="all" />
+    <type fullname="IIM.Story.PlayerOperationEvent_ImperialKnightBaseAttack" preserve="all" />
+    <type fullname="IIM.Story.PlayerOperationEvent_ImperialKnightChangeMap1" preserve="all" />
+    <type fullname="IIM.Story.PlayerOperationEvent_ImperialKnightSkill1" preserve="all" />
+    <type fullname="IIM.Story.PlayerOperationEvent_ImperialKnightSkill2" preserve="all" />
+    <type fullname="IIM.Story.PlayerOperationEvent_ImperialKnightSkill3" preserve="all" />
     <type fullname="IIM.Story.PlayerOperationEvent_InfighterBaseAttack" preserve="all" />
+    <type fullname="IIM.Story.PlayerOperationEvent_InfighterSkill1" preserve="all" />
     <type fullname="IIM.Story.PlayerOperationEvent_InfighterSkill2" preserve="all" />
+    <type fullname="IIM.Story.PlayerOperationEvent_InfighterSkill3" preserve="all" />
     <type fullname="IIM.UITitle" preserve="all" />
     <type fullname="Somggori.Battle.DamageText" preserve="all" />
     <type fullname="Somggori.Battle.GraphicController" preserve="all" />
@@ -26,6 +34,7 @@
     <type fullname="IIM.Skill.SkillImperialKnight2" preserve="nothing" serialized="true" />
     <type fullname="IIM.Skill.SkillImperialKnight3" preserve="nothing" serialized="true" />
     <type fullname="IIM.Skill.SkillImperialKnightBaseAttack" preserve="nothing" serialized="true" />
+    <type fullname="IIM.Skill.SkillImperialKnightGuard" preserve="nothing" serialized="true" />
     <type fullname="IIM.Skill.SkillInfighter1" preserve="nothing" serialized="true" />
     <type fullname="IIM.Skill.SkillInfighter2" preserve="nothing" serialized="true" />
     <type fullname="IIM.Skill.SkillInfighter3" preserve="nothing" serialized="true" />
@@ -119,7 +128,6 @@
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.CircleCollider2D" preserve="all" />
@@ -130,7 +138,6 @@
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Button" preserve="all" />
-    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
@@ -142,6 +149,9 @@
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityUIExtensions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.Extensions.NonDrawingGraphic" preserve="all" />
   </assembly>
   <assembly fullname="Sirenix.Serialization">
     <type fullname="Sirenix.Serialization.SerializationData" preserve="nothing" serialized="true" />
